@@ -1,0 +1,316 @@
+body{
+    list-style-type: none;
+    
+}
+    h4 {
+        position: relative;
+        bottom: 61px;
+        left: 73px;
+        font-size: 25px;
+    }
+    
+    h3 {
+        font-size: 25px;
+        color: #75b33e;
+    }
+    .logo {
+        float: left;
+    }
+    
+    .liitem {
+        float: left;
+        margin-left: 268px;
+    }
+    ul.mainmenuitem li {
+        float: left;
+        padding: 19px;
+        list-style: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        position: relative;
+        top: 7px;
+    }
+
+header {
+    position: relative;
+    top: -33px;
+    left: 33px;
+    
+    
+}
+
+.logo {
+    position: relative;
+    top: 15px;
+ 
+}
+ul.mainmenuitem li:hover{
+
+ color: #75b33e;
+ transition: 0.5s;
+
+
+
+}  
+
+.myimg img {
+    width: 56%;
+    position: relative;
+    left: 348px;
+    top: -80px;
+}
+
+
+.texttitle h2 {
+    position: relative;
+    top: 180px;
+    left: -70%;
+    font-size: 36px;
+}
+
+.texttitle span {
+    position: relative;
+    left: -71%;
+    top: 184px;
+    font-size: 29px;
+}
+
+.texttitle p {
+    top: 193px;
+    position: relative;
+    left: 5px;
+} 
+main {
+    background: rgb(255, 255, 255);
+    height: 343px;
+}
+
+main h1 {
+    position: relative;
+    left: 56%;
+    bottom: 46px;
+}
+
+.skill li {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.skill{
+    width: 500px;
+
+}
+.bar{
+    background: #000000;
+    display: block;
+    height: 20px;
+border-radius:10px ;
+
+}
+
+span.bar {
+    position: relative;
+    top: 109px;
+}
+
+span.bar h3 {
+    margin-top: 144px;
+}
+
+
+.skill {
+    margin-left: 254px;
+}
+
+li h3 {
+    margin: auto;
+}
+.skill h1 {
+    margin-left: -97px;
+}
+.myimg54 img {
+    width: 305px;
+    position: relative;
+    top: 350px;
+    left: 96px;
+    border-radius: 181px;
+}
+.myimg54 img {
+    /* border-color: #ff002d; */
+    /* border-color: bisque; */
+    border: 6px solid #0037ff;
+}
+.imgabout h1 {
+    color: #000000;
+    position: relative;
+    top: 213px;
+    left: 427px;
+    font-size: 35px;
+}
+.textabout h1 {
+    position: relative;
+    top: -63px;
+    left: 461px;
+}
+
+.textabout p {
+    position: relative;
+    left: 477px;
+    top: -38px;
+}
+.textabout button {
+    position: relative;
+    left: 488px;
+    padding: 11px;
+    background: #ff5200;
+    border: none;
+    width: 107px;
+    height: 43px;
+}
+
+.textabout button:hover {
+     background: transparent;
+     transition:all 0.5s ease;
+
+}
+
+.texttitle button {
+    width: 84px;
+    position: relative;
+    top: 237px;
+    left: 71px;
+    padding: 10px;
+    background: red;
+    border: none;
+    border-radius:30px;
+}
+.textabout {
+    margin-left: 37%;
+    margin-top: -15%;
+}
+.textabout {
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+i.fa-brands.fa-github {
+    padding: 9px;
+}
+
+i.fa-brands.fa-facebook {
+    padding: 9px;
+}
+
+i.fa-brands.fa-instagram {
+    padding: 9px;
+}
+
+i.fa-brands.fa-linkedin {
+    padding: 9px;
+}
+
+.footicon {
+    margin-left: 136px;
+    margin-top: 93px;
+    font-size: 20px;
+}
+
+.mytext p {
+    margin-left: 715px;
+    margin-top: -29px;
+}
+
+ 
+
+
+@media (max-width:990px) {
+    ul.mainmenuitem li {
+      display: none;
+    }
+ 
+    .texttitle {
+        margin-left: 177px;
+    }
+
+    .texttitle h2{
+     position: relative;
+     top: 67px;
+
+    }
+   
+    .texttitle span{
+position: relative;
+top:47px;
+
+    }
+    .texttitle p{
+position: relative;
+top: 39px;
+    left: -150px
+
+    }
+ 
+    main {
+        margin-left:-290px;
+    }
+  
+span.bar {
+    width: 287px;
+    position: relative;
+    left: 87px;
+}
+.myimg54 img{
+
+    position:relative;
+    top: 143px;
+    width: 56%;
+}
+.imgabout h1{
+    position:relative;
+    left: 132px;
+    top: 121px;
+}
+.skill {
+    margin-left: 288px;
+}
+.skill h1{
+    position: relative;
+    top: 1px;
+}
+.textabout {
+    position: relative;
+    left: -380px;
+    top: 88px;
+}
+.myimg img {
+    position: relative;
+    left: 160px;
+    top: -102px;
+    width: 122px;
+}
+.skill {
+    margin-left: 195px;
+}
+.imgabout {
+    margin-left: -83px;
+}
+.footicon {
+    position: relative;
+    top: 49px;
+    left: -35px;
+}
+.footicon {
+    position: relative;
+    top: 122px;
+    left: 139px;
+    font-size: 37px;
+}
+.mytext P {
+    position: relative;
+    top: 130px;
+   
+    left: 28px;
+}
+}
+  
